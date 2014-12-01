@@ -1,0 +1,47 @@
+{
+  "name": "grunt-rev-all",
+  "description": "Rename all files with an MD5, update all links hierarchically.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/snadrus/grunt-rev-all",
+  "author": {
+    "name": "Andrew Jackson",
+    "url": "http://github.com/snadrus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snadrus/grunt-rev-all.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snadrus/grunt-rev-all/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-internal": "~0.4.5",
+    "grunt": "~0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "files": [
+    "tasks",
+    "LICENSE-MIT"
+  ],
+  "readme": "# grunt-rev-all v0.1.0 ",
+  "readmeFilename": "README.md",
+  "_id": "grunt-rev-all@0.1.0",
+  "_from": "grunt-rev-all@"
+}
