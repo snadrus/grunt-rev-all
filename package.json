@@ -1,7 +1,7 @@
 {
   "name": "grunt-rev-all",
   "description": "Rename all files with an MD5, update all links hierarchically.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/snadrus/grunt-rev-all",
   "author": {
     "name": "Andrew Jackson",
@@ -40,7 +40,6 @@
     "tasks",
     "LICENSE-MIT"
   ],
-  "readme": "# grunt-rev-all v0.1.0 ",
   "readmeFilename": "README.md",
   "_id": "grunt-rev-all@0.1.0",
   "_from": "grunt-rev-all@"
