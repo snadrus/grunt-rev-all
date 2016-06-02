@@ -143,7 +143,7 @@ module.exports = function(grunt) {
           });
           delete waitingForComplete[filename];
 
-          if (findLinksCompleted && completedSet.length == ctAllFiles) // we found and fixed all files
+          if (findLinksCompleted && Object.keys(completedSet).length === ctAllFiles) // we found and fixed all files
             done();
         },
         resolveObj: function(waitBundle) { // links={canonical: {usedAs:''}}
